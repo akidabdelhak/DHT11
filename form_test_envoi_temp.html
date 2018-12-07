@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire test envoi</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<h1>Simulation du NodeMCU</h1>
+<p>Ce formulaire permet de tester l'envoi d'une température vers le serveur comme le ferait le NodeMCU.</p>
+
+<form action="store_temp.php" method="post">
+  Température : <input type="text" name="temperature" placeholder="valeur numérique">
+  <input type="submit" value="Envoyer">
+</form>
+
+<p>Exemple : <em>{"temperature":"25","humidite":"55"}</em></p>
+
+</body>
+</html>
